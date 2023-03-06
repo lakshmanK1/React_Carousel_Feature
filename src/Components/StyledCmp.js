@@ -19,3 +19,12 @@ justify-content:center; `;
 
 export const InnerDiv = styled.div`white-space:nowrap; transition:transform 0.3s;
  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); `;
+
+ export const ButtonsDiv = styled.div`display:flex; justify-content:space-evenly;`;
+
+ export const IndicatorBtn = styled.button`background:none; border:none; margin-top:17px;`;
+
+ export const RadioBtnDiv = styled.div``;
+
+ export const ArrowButton = styled.button`background:none; border:none;  margin-top:10px;
+ cursor:pointer;`;
