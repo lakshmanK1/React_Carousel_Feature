@@ -1,9 +1,10 @@
-import React from 'react'
+import React,{useState} from 'react'
 import CarouselItem from './CarouselItem'
 import { RawData } from './RawData'
 import { OutterDiv, InnerDiv } from './StyledCmp'
 
 function Carousel() {
+    
   return (
     <OutterDiv>
         <InnerDiv>
